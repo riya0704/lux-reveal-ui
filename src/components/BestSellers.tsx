@@ -14,19 +14,19 @@ const BestSellers = () => {
       id: 1,
       name: 'ALYA SKIN CLEANSER.',
       price: 'FROM $29.99',
-      image: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=500&fit=crop'
+      image: '/lovable-uploads/a980d791-f103-4c8f-8c3b-2ac3e910ae20.png'
     },
     {
       id: 2,
       name: 'RITUAL OF SAKURA.',
       price: 'FROM $27.99', 
-      image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=500&fit=crop'
+      image: '/lovable-uploads/54c628b3-5617-45b5-8d5d-f5034b34873d.png'
     },
     {
       id: 3,
       name: 'THE BODY LOTION.',
       price: 'FROM $19.99',
-      image: 'https://images.unsplash.com/photo-1556228724-f6f48ef55617?w=400&h=500&fit=crop'
+      image: '/lovable-uploads/01899004-61a9-4f5e-b2be-1cdb042c670b.png'
     }
   ];
 

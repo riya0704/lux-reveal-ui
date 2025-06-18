@@ -48,7 +48,7 @@ const HeroSection = () => {
         ref={imageRef}
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=800&fit=crop')`
+          backgroundImage: `url('/lovable-uploads/79252edd-4b43-41d7-82b7-281097d9fe0e.png')`
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>

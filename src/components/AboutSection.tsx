@@ -76,7 +76,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&h=750&fit=crop"
+                src="/lovable-uploads/885a894c-49e5-451c-a302-9f27926465df.png"
                 alt="Skincare routine"
                 className="w-full h-full object-cover"
               />
