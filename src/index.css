@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,20 +38,22 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom Skincare Color Palette */
+    --cream-50: #FEFFF4;
+    --cream-100: #FBF9E6;
+    --forest-dark: #2D3B36;
+    --sage-200: #D1D5DB;
+    --sage-300: #9CA3AF;
+    --sage-600: #4B5563;
+    --sage-700: #374151;
   }
 
   .dark {
@@ -101,3 +104,26 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom color classes for the skincare theme */
+.bg-cream-50 { background-color: var(--cream-50); }
+.bg-cream-100 { background-color: var(--cream-100); }
+.bg-forest-dark { background-color: var(--forest-dark); }
+.text-cream-50 { color: var(--cream-50); }
+.text-cream-100 { color: var(--cream-100); }
+.text-forest-dark { color: var(--forest-dark); }
+.text-sage-200 { color: var(--sage-200); }
+.text-sage-300 { color: var(--sage-300); }
+.text-sage-600 { color: var(--sage-600); }
+.text-sage-700 { color: var(--sage-700); }
+.border-sage-200 { border-color: var(--sage-200); }
+.border-sage-300 { border-color: var(--sage-300); }
+.border-sage-700 { border-color: var(--sage-700); }
+.hover\:bg-cream-100:hover { background-color: var(--cream-100); }
+.hover\:bg-sage-300:hover { background-color: var(--sage-300); }
+.hover\:bg-sage-700:hover { background-color: var(--sage-700); }
+.hover\:text-sage-600:hover { color: var(--sage-600); }
+.hover\:text-cream-50:hover { color: var(--cream-50); }
+.bg-sage-600 { background-color: var(--sage-600); }
+.bg-sage-700 { background-color: var(--sage-700); }
+.placeholder-sage-300::placeholder { color: var(--sage-300); }
